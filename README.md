@@ -1,47 +1,43 @@
-# despertador.py
-Este código cria uma aplicação de despertador utilizando a biblioteca Tkinter do Python para a interface gráfica e a biblioteca playsound para tocar um som de alarme.
-Permitindo que o usuário defina um tempo específico para o alarme e reproduz um som quando o tempo atual corresponde ao tempo definido.
+# alarmclock.py
+This code creates an alarm clock application using Python's Tkinter library for the graphical interface and the playsound library to play an alarm sound.
+It allows the user to set a specific time for the alarm and plays a sound when the current time matches the set time.
 
-### Bibliotecas 
+### Libraries
 - tkinter.
 
-Biblioteca padrão do Python para criar interfaces gráficas.
-Permite criar janelas, botões, rótulos, caixas de texto, e outros componentes de interface.
-Facilita a criação e gestão de janelas e eventos de usuário.
+Python's standard library for creating graphical interfaces.
+It allows you to create windows, buttons, labels, text boxes, and other interface components.
+It makes it easy to create and manage windows and user events.
 
 - ttk.
 
-Subconjunto de tkinter que fornece uma série de widgets tematicamente melhorados.
-Inclui spinboxes, que são caixas de seleção que permitem ao usuário escolher valores numéricos.
+A subset of tkinter that provides a number of thematically enhanced widgets.
+It includes spinboxes, which are checkboxes that allow the user to choose numeric values.
 
-- time é usado para obter a hora atual.
-- playsound é usado para tocar um arquivo de som.
+- time is used to get the current time.
+- playsound is used to play a sound file.
 
-## Função
-- Esta função é chamada quando o botão "Definir Alarme" é pressionado.
-- Ela obtém o tempo do alarme definido pelo usuário a partir dos spinboxes.
-- Em um loop contínuo, ela verifica a hora atual e compara com o tempo do alarme.
-- Quando a hora atual coincide com o tempo do alarme, ela toca o som do alarme e sai do loop.
+## Function
+- This function is called when the "Set Alarm" button is pressed.
+- It gets the user-defined alarm time from the spinboxes.
+- In a continuous loop, it checks the current time and compares it to the alarm time.
+- When the current time matches the alarm time, it plays the alarm sound and exits the loop.
 
 ## Interface
-- Uma janela principal é criada com o título "Despertador".
-- Um rótulo instruindo o usuário a selecionar a hora do alarme é adicionado.
-- Três spinboxes são criados para permitir que o usuário selecione a hora, minuto e segundo do alarme.
-- Um botão é adicionado para permitir que o usuário defina o alarme. Quando clicado, ele chama a função alarme.
+- A main window is created with the title "Alarm Clock".
+- A label instructing the user to select the alarm time is added.
+- Three spinboxes are created to allow the user to select the hour, minute, and second of the alarm.
+- A button is added to allow the user to set the alarm. When clicked, it calls the alarm function.
 
-## Loop Principal da GUI
-raiz.mainloop() inicia o loop principal da GUI, que mantém a janela aberta e interativa.
+## GUI Main Loop
+root.mainloop() starts the GUI main loop, which keeps the window open and interactive.
 
-### execução
+### execution
 
-python3 despertador.py
+python3 alarmclock.py
 
-
-## O que é GUI?
-GUI (Graphical User Interface, ou Interface Gráfica do Usuário) é um tipo de interface que permite aos usuários interagir com dispositivos eletrônicos através de elementos gráficos como janelas, ícones, botões e outros controles visuais. 
-Em vez de usar comandos de linha de comando, os usuários podem executar ações clicando e arrastando com o mouse ou tocando na tela. 
-No contexto deste código, a GUI permite ao usuário definir um alarme de forma intuitiva e visual.
-
-
+## What is GUI? GUI (Graphical User Interface) is a type of interface that allows users to interact with electronic devices through graphical elements such as windows, icons, buttons, and other visual controls.
+Instead of using command-line commands, users can perform actions by clicking and dragging with the mouse or touching the screen.
+In the context of this code, GUI allows the user to set an alarm in an intuitive and visual way.
 
 
