@@ -41,3 +41,7 @@ Instead of using command-line commands, users can perform actions by clicking an
 In the context of this code, GUI allows the user to set an alarm in an intuitive and visual way.
 
 
+# js
+
+Este script Java implementa um despertador com interface gráfica usando Swing. O programa permite ao usuário selecionar a hora, minuto e segundo em que deseja que o alarme toque. Após a seleção, é iniciado um temporizador que verifica a cada segundo se o horário atual corresponde ao horário programado. Quando isso acontece, o alarme é disparado com um som em formato .wav e uma mensagem na tela. O sistema utiliza classes como JComboBox para a escolha de horários, Timer para agendamento da verificação e Clip da biblioteca javax.sound.sampled para tocar o áudio.
+
