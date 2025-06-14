@@ -41,3 +41,4 @@ public class AlarmView extends JFrame {
         botao.addActionListener(listener);
     }
     public void mostrarMensagem(String msg) {
+        JOptionPane.showMessageDialog(this, msg);
