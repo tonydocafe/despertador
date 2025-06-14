@@ -16,3 +16,10 @@ public class AlarmController {
     public AlarmController(AlarmView view, AlarmModel model) {
         this.view = view;
         this.model = model;
+        this.view.adicionarAcaoBotao(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                definirAlarme();
+            }
+        });
+    }
