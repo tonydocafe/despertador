@@ -21,5 +21,5 @@ public class AlarmView extends JFrame {
             if (i < 24) horas[i] = valor;
             minutosSegundos[i] = valor;
         }
-
+        horaCombo = new JComboBox<>(horas);
 
