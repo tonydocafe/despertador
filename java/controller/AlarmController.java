@@ -27,3 +27,4 @@ public class AlarmController {
         model.setHoraAlarme(view.getHoraSelecionada());
         timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask() {
+            public void run() {
