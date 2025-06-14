@@ -39,3 +39,4 @@ public class AlarmView extends JFrame {
     }
     public void adicionarAcaoBotao(ActionListener listener) {
         botao.addActionListener(listener);
+    }
