@@ -13,4 +13,6 @@ public class AlarmView extends JFrame {
         setSize(300, 120);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
+        add(new JLabel("Selecione a hora do alarme:"));
+
 
