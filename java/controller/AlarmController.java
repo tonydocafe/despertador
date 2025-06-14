@@ -32,3 +32,9 @@ public class AlarmController {
                 if (model.deveTocar(horaAtual)) {
                     model.tocarAlarme();
                     view.mostrarMensagem("Alarme Disparado!");
+                    timer.cancel();
+                }
+            }
+        }, 0, 1000);
+    }
+}
