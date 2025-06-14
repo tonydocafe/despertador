@@ -7,3 +7,8 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Timer;
 import java.util.TimerTask;
+
+public class AlarmController {
+    private AlarmView view;
+    private AlarmModel model;
+    private Timer timer;
