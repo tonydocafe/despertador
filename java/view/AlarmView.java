@@ -38,4 +38,4 @@ public class AlarmView extends JFrame {
                segundoCombo.getSelectedItem();
     }
     public void adicionarAcaoBotao(ActionListener listener) {
-
+        botao.addActionListener(listener);
