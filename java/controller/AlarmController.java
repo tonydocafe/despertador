@@ -12,3 +12,7 @@ public class AlarmController {
     private AlarmView view;
     private AlarmModel model;
     private Timer timer;
+
+    public AlarmController(AlarmView view, AlarmModel model) {
+        this.view = view;
+        this.model = model;
