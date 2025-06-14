@@ -26,4 +26,5 @@ public class AlarmView extends JFrame {
         segundoCombo = new JComboBox<>(minutosSegundos);
         add(horaCombo);
         add(new JLabel(":"));
+        add(minutoCombo);
 
