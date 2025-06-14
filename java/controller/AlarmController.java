@@ -28,3 +28,4 @@ public class AlarmController {
         timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask() {
             public void run() {
+                String horaAtual = LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"));
