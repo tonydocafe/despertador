@@ -33,4 +33,5 @@ public class AlarmView extends JFrame {
         setVisible(true);
     }
     public String getHoraSelecionada() {
+        return horaCombo.getSelectedItem() + ":" +
 
