@@ -30,4 +30,5 @@ public class AlarmView extends JFrame {
         add(new JLabel(":"));
         add(segundoCombo);
         add(botao);
+        setVisible(true);
 
