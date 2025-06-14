@@ -37,4 +37,5 @@ public class AlarmView extends JFrame {
                minutoCombo.getSelectedItem() + ":" +
                segundoCombo.getSelectedItem();
     }
+    public void adicionarAcaoBotao(ActionListener listener) {
 
