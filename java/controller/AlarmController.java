@@ -31,3 +31,4 @@ public class AlarmController {
                 String horaAtual = LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"));
                 if (model.deveTocar(horaAtual)) {
                     model.tocarAlarme();
+                    view.mostrarMensagem("Alarme Disparado!");
