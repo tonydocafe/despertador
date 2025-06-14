@@ -32,4 +32,5 @@ public class AlarmView extends JFrame {
         add(botao);
         setVisible(true);
     }
+    public String getHoraSelecionada() {
 
