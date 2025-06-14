@@ -29,3 +29,4 @@ public class AlarmController {
         timer.scheduleAtFixedRate(new TimerTask() {
             public void run() {
                 String horaAtual = LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+                if (model.deveTocar(horaAtual)) {
