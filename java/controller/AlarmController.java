@@ -23,3 +23,5 @@ public class AlarmController {
             }
         });
     }
+    private void definirAlarme() {
+        model.setHoraAlarme(view.getHoraSelecionada());
