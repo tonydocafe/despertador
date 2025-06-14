@@ -36,4 +36,5 @@ public class AlarmView extends JFrame {
         return horaCombo.getSelectedItem() + ":" +
                minutoCombo.getSelectedItem() + ":" +
                segundoCombo.getSelectedItem();
+    }
 
