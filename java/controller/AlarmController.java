@@ -30,3 +30,4 @@ public class AlarmController {
             public void run() {
                 String horaAtual = LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"));
                 if (model.deveTocar(horaAtual)) {
+                    model.tocarAlarme();
