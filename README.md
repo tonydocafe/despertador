@@ -45,3 +45,7 @@ In the context of this code, GUI allows the user to set an alarm in an intuitive
 
 Este script Java implementa um despertador com interface gráfica usando Swing. O programa permite ao usuário selecionar a hora, minuto e segundo em que deseja que o alarme toque. Após a seleção, é iniciado um temporizador que verifica a cada segundo se o horário atual corresponde ao horário programado. Quando isso acontece, o alarme é disparado com um som em formato .wav e uma mensagem na tela. O sistema utiliza classes como JComboBox para a escolha de horários, Timer para agendamento da verificação e Clip da biblioteca javax.sound.sampled para tocar o áudio.
 
+#JAVA
+## model 
+
+A classe AlarmModel, localizada no pacote model, representa um modelo de alarme que permite definir e obter a hora em que o alarme deve tocar, verificar se o horário atual corresponde ao horário configurado e tocar um som caso isso ocorra. Ela utiliza a API javax.sound.sampled para tocar um arquivo de áudio .wav chamado "alarm.wav", tratando possíveis exceções relacionadas à leitura e execução do som.
